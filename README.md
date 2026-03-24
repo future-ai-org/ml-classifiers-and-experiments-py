@@ -1,8 +1,8 @@
-## advanced machine learning classifiers research
+## advanced machine learning classifiers
 
 <br>
 
-#### 👉🏼 my algorithms and experiments from grad school:
+#### 👉🏼 my algorithms and experiments with classic ML
 
 <br>
 
