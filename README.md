@@ -1,13 +1,17 @@
-## advanced machine learning classifiers
+## 👾 my AI/ML algorithms && experiments
 
 <br>
 
-#### 👉🏼 my algorithms and experiments with classic ML
+#### large language models
+
+* **[LLM from scratch](LLM-from-scratch)**
 
 <br>
 
-* **[naive bayes vs. logistic regression](naive_bayes_vs_logistic_regression)**
-* **[adaboost](adaboost)**
-* **[kNN vs. SVM](k-NN)**
-* **[expectation maximization](expectation_maximization)**
-* **[hidden markov chain](hidden_markov_model)**
+#### classic machine learning classifiers
+
+* **[naive bayes vs. logistic regression](classic_ML_classifiers/naive_bayes_vs_logistic_regression)**
+* **[adaboost](classic_ML_classifiers/adaboost)**
+* **[kNN vs. SVM](classic_ML_classifiers/k-NN)**
+* **[expectation maximization](classic_ML_classifiers/expectation_maximization)**
+* **[hidden Markov model](classic_ML_classifiers/hidden_markov_model)**
