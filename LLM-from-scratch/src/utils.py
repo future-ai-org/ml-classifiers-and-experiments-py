@@ -35,7 +35,10 @@ def int_to_str(vocab):
 
 
 def create_ids(vocab, words):
-    return [vocab[s] for s in words]
+    try:
+        return [vocab[s] for s in words]
+    except KeyError:
+        print('❌ WORD NOT FOUND...')
 
 
 def decode_text(text):
@@ -50,3 +53,4 @@ def bte(text):
     tokenizer = gpt2_tokenizer()
     ids = tokenizer.encode(text)
     return ids
+

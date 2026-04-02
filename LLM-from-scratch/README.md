@@ -2,7 +2,7 @@
 
 <br>
 
-> *NOT PRODUCTION CODE, rather a quick and relaxed sesh, just playing and moving things around and breaking things apart and putting them back together (because that's how scientists learn)*
+> *NOT PRODUCTION CODE → rather, a quick and relaxed sesh; just playing and moving things around and breaking things apart and putting them back together (because that's how scientists learn)*
 
 <br>
 

@@ -22,7 +22,10 @@ if __name__ == "__main__":
         MultiHeadAttentionWrapper,
         simple_mha_example,
     )
-    from pretraining import run_pretraining_example
+    from pretraining import (
+        run_text_generation_loss_example,
+        train_and_validation_loss_example,
+    )
     from self_attention import (
         CausalAttention,
         SelfAttention,
@@ -117,21 +120,17 @@ if __name__ == "__main__":
     model1 = GPTModel()
     print_logits(model1, batch)
     generate_text_example(model1)
+    run_text_generation_loss_example(model1, tokenizer, raw_text)
 
     model2 = GPTModel2()
     print_logits(model2, batch)
     generate_text_example(model2)
+    run_text_generation_loss_example(model2, tokenizer, raw_text)
 
 
     print ('\n\n\n--------------------------------------------------------------')
     print ('--------------------------------------------------------------')
-    print('----> PRETRAINING ON UNLABELED DATA\n')
-    run_pretraining_example(model1)
-    run_pretraining_example(model2)
+    print('----> CALCULATING TRAINING AND VALIDATION LOSSES\n')
+    train_loader1, val_loader1 = train_and_validation_loss_example(raw_text, model1)
+    train_loader2, val_loader2 = train_and_validation_loss_example(raw_text, model2)
 
-
-    print ('\n\n\n--------------------------------------------------------------')
-    print ('--------------------------------------------------------------')
-    print('----> PRETRAINING ON UNLABELED DATA\n')
-    run_pretraining_example(model1)
-    run_pretraining_example(model2)

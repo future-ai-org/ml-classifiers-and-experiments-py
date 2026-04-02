@@ -2,6 +2,16 @@
 
 <br>
 
+<p align="center">
+  <img src="assets/happy.png" alt="banner" />
+</p>
+
+<br>
+
+### chapters
+
+<br>
+
 #### large language models
 
 * **[LLM from scratch](LLM-from-scratch)**
@@ -15,3 +25,5 @@
 * **[kNN vs. SVM](classic_ML_classifiers/k-NN)**
 * **[expectation maximization](classic_ML_classifiers/expectation_maximization)**
 * **[hidden Markov model](classic_ML_classifiers/hidden_markov_model)**
+
+<br>

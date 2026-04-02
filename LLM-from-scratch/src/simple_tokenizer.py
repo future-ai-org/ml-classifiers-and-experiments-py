@@ -13,12 +13,12 @@ class SimpleTokenizer:
         self.str_to_int = vocab
         self.int_to_str = int_to_str(vocab)
 
-    def encode(self, text):
+    def encode(self, text, allowed_special=None):
         preprocessed = process_text(text)
         return create_ids(self.str_to_int, preprocessed)
 
     def decode(self, ids):
-        text = " ".join([self.int_to_str[i] for i in ids])
+        text = " ".join(self.int_to_str.get(i, f"<{i}>") for i in ids)
         return decode_text(text)
 
     def example(self):
