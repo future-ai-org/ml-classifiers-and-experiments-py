@@ -15,6 +15,7 @@
 #### large language models
 
 * **[LLM from scratch](LLM-from-scratch)**
+* **[RLHF techniques](RLHF-techniques)**
 
 <br>
 
